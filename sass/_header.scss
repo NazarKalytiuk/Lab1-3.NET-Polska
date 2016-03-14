@@ -41,6 +41,21 @@
 			display: flex;
 			text-transform: uppercase;
 		}
+	}
+	&__menu {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		font-family: 'Roboto';
+		font-size: 2rem;
+		& a {
+			color: white;
+			text-decoration: none;
+			padding: .5rem 1rem;
+			&:hover {
+				opacity: .6;
+			}
+		}
 	}	
 }
 .tagline-container {
